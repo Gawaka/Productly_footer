@@ -1,0 +1,93 @@
+.body {
+    width: 1440px;
+    font-family: 'Gotham Ultra', sans-serif;
+
+}
+
+.footer {
+    background-color: #F2F2F2;
+    margin: 0 auto;
+    width: 1440px;
+    height: 349px;
+    left: 120px;
+    top: 3430px;
+}
+
+
+.container {
+    width: 1200px;
+    height: 209px;
+    display: flex;
+}
+
+.logo {
+    width: 200px;
+    height: 32px;
+    margin: 70px 0 0 120px;
+}
+
+ul {
+    list-style: none;
+}
+
+.links {
+    color: black;
+    width: 155px;
+    height: 209px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+    margin: 55px 70px;
+}
+
+.links a {
+    line-height: 26px;
+    font-size: 16px;
+    color: #544837;
+    text-decoration: none;
+}
+
+.links h4 {
+    width: 118px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.form h4 {
+    width: 280px;
+    height: 57px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.input-number {
+    width: 340px;
+    height: 50px;
+    margin: 25px 0;
+    color: #BCD0E5;
+    border: #BCD0E5;
+}
+
+::placeholder {
+    opacity: 50%;
+}
+
+.button-number {
+    background-color: #FF9900;
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px 2px;
+}
